@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+README.md
+dist.ini
+lib/Mojolicious/Plugin/AutoIndex.pm
+t/00_compile.t
+t/basic.t
+t/custom.t
+t/not_found_route.t
+t/not_found_static.t
+t/public/idx
+t/public/index.htm
+t/public/index.html
+t/sequence.t
