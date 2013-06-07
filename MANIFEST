@@ -14,4 +14,5 @@ t/not_found_static.t
 t/public/idx
 t/public/index.htm
 t/public/index.html
+t/public/pt/index.htm
 t/sequence.t
