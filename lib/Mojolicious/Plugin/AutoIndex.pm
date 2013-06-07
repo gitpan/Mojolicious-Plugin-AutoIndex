@@ -21,7 +21,7 @@ sub register {
             return unless $path =~ m!/$!;
             my $sv_path = $c->stash('path');
             foreach ( @{ $config->{index} } ) {
-                $c->stash( path => $path . $_ );
+                $c->stash->{path} = $path . $_;
                 if ( $app->static->dispatch($c) ) {
                     $c->stash->{path} = $sv_path;
                     return $app->plugins->emit_hook( after_static => $c );
@@ -44,7 +44,7 @@ Mojolicious::Plugin::AutoIndex - Mojolicious plugin for autoindex function at st
 
 =head1 VERSION
 
-version 0.0002
+version 0.0003
 
 =head1 SYNOPSIS
 
