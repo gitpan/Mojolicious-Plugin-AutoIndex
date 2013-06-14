@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.010;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -19,18 +19,9 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "bsd",
   "NAME" => "Mojolicious::Plugin::AutoIndex",
-  "PREREQ_PM" => {
-    "Mojo::Base" => 0,
-    "Mojolicious" => "4.0",
-    "strict" => 0,
-    "warnings" => 0
-  },
-  "TEST_REQUIRES" => {
-    "Mojolicious::Lite" => 0,
-    "Test::Mojo" => 0,
-    "Test::More" => 0
-  },
-  "VERSION" => "0.0003",
+  "PREREQ_PM" => {},
+  "TEST_REQUIRES" => {},
+  "VERSION" => "0.0004",
   "test" => {
     "TESTS" => "t/*.t"
   }
