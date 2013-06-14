@@ -1,5 +1,4 @@
 Changes
-Changes~
 INSTALL
 LICENSE
 MANIFEST
@@ -7,12 +6,10 @@ META.json
 META.yml
 Makefile.PL
 README
-README.md
 README.mkdn
 dist.ini
 lib/Mojolicious/Plugin/AutoIndex.pm
 t/00-compile.t
-t/00_compile.t
 t/basic.t
 t/custom.t
 t/not_found_route.t

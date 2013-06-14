@@ -41,7 +41,7 @@
          "web" : "https://github.com/ChinaXing/Mojolicious-Plugin-AutoIndex"
       }
    },
-   "version" : "0.0004",
+   "version" : "0.0005",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.017010"
@@ -158,11 +158,6 @@
             "version" : "2.012"
          },
          {
-            "class" : "Dist::Zilla::Plugin::Git::Tag",
-            "name" : "Git::Tag",
-            "version" : "2.012"
-         },
-         {
             "class" : "Dist::Zilla::Plugin::Homepage",
             "name" : "Homepage",
             "version" : "1.101420"
@@ -226,6 +221,11 @@
             "class" : "Dist::Zilla::Plugin::NextRelease",
             "name" : "NextRelease",
             "version" : "4.300032"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::CopyFilesFromBuild",
+            "name" : "CopyFilesFromBuild",
+            "version" : "0.103510"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",

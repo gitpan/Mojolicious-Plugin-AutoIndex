@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Mojolicious::Plugin::AutoIndex",
   "PREREQ_PM" => {},
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.0004",
+  "VERSION" => "0.0005",
   "test" => {
     "TESTS" => "t/*.t"
   }
