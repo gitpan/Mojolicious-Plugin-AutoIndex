@@ -19,9 +19,19 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "bsd",
   "NAME" => "Mojolicious::Plugin::AutoIndex",
-  "PREREQ_PM" => {},
-  "TEST_REQUIRES" => {},
-  "VERSION" => "0.0005",
+  "PREREQ_PM" => {
+    "Mojo::Base" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "TEST_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Mojolicious::Lite" => 0,
+    "Test::Mojo" => 0,
+    "Test::More" => 0
+  },
+  "VERSION" => "0.0006",
   "test" => {
     "TESTS" => "t/*.t"
   }

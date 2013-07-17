@@ -5,7 +5,7 @@ use warnings;
 
 package Mojolicious::Plugin::AutoIndex;
 {
-  $Mojolicious::Plugin::AutoIndex::VERSION = '0.0005';
+  $Mojolicious::Plugin::AutoIndex::VERSION = '0.0006';
 }
 
 use Mojo::Base 'Mojolicious::Plugin';
@@ -47,7 +47,7 @@ Mojolicious::Plugin::AutoIndex - Mojolicious plugin for autoindex function at st
 
 =head1 VERSION
 
-version 0.0005
+version 0.0006
 
 =head1 SYNOPSIS
 
